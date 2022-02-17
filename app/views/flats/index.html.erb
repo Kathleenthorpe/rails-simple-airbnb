@@ -1,0 +1,12 @@
+<div class="banner">Simple Airbnb</div>
+
+<h1>All our Flats</h1>
+
+
+
+  <div class="card">
+  <div class="photo"></div>
+  <div class="title"><p> <%= link_to flat.name, flat_path(flat.id)%></p>
+  <p><%= flat.description %></p></div>
+  <div class="links"></div>
+  </div>
